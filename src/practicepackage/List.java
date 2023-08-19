@@ -9,5 +9,11 @@ public class List {
         System.out.println(array[2]);
         System.out.println(array[3]);
         
+        String[] enemy = {"スライム", "モンスター", "ゾンビ", "ドラゴン", "魔王"};
+        // ここに、要素をループで表示するコードを記述する
+        for (int i = 0; i < enemy.length; i ++) {
+            System.out.println(enemy[i]);
+        }
     }
+
 }
